@@ -56,6 +56,9 @@ export default function Home() {
               <TableCell>
                 <strong>Autor</strong>
               </TableCell>
+			  <TableCell>
+                <strong>Descrição</strong>
+              </TableCell>
               <TableCell>
                 <Button color="success" variant="contained" onClick={() => criarLivroPage()}>New</Button>
               </TableCell>
@@ -73,6 +76,9 @@ export default function Home() {
                 </TableCell>
                 <TableCell>
                   {livro.autor}
+                </TableCell>
+				<TableCell>
+                  {livro.descricao}
                 </TableCell>
 
                 <TableCell>
